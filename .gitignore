@@ -1,0 +1,14 @@
+## Mac OS
+.DS_store
+
+##npm packages
+node_modules/
+
+##webpack default output folder
+public/
+serverCompiled.js
+
+##passwords
+helpers/config.js
+helpers/mysqlConfig.js
+.env
