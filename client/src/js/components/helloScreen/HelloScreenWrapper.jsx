@@ -1,15 +1,16 @@
 import React from 'react';
+import GreetingsForm from './helloScreenComponents/GreetingsForm';
 
-import '../../../css/mainPage/HelloScreenWrapper.css';
+import '../../../css/helloPage/HelloScreenWrapper.css';
 
 function HelloScreenWrapper(props) {
   return (
     <div className="hello-screen-wrapper">
       <div className="hero-wrapper">
         <div>CANVAS</div>
-        <div className="hero-photo" />
+        <div className="hero-photo-frame" />
       </div>
-      <div className="form-wrapper">FORM</div>
+      <GreetingsForm />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.hello-screen-wrapper {
+  display: flex;
+  background-color: lemonchiffon;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+}
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: 50%;
+}
+
+.hero-wrapper {
+  border-right: 3px dotted sandybrown;
+  background-image: linear-gradient(#fff, #076585);
+}
+
+.hero-photo-frame {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-image: url('https://wallpaperplay.com/walls/full/9/8/7/269161.jpg');
+  background-size: cover;
+  background-position: 70% 60%;
+  box-shadow: 0 0 5px #333;
+}

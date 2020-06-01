@@ -1,0 +1,14 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: 50%;
+}
+.guest-name-active {
+  background: linear-gradient(to right, hsl(0, 75%, 50%) , hsl(25, 75%, 50%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
