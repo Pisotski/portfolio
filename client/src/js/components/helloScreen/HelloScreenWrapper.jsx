@@ -7,7 +7,7 @@ function HelloScreenWrapper(props) {
     <div className="hello-screen-wrapper">
       <div className="hero-wrapper">
         <div>CANVAS</div>
-        <div className="hero-photo">PHOTO</div>
+        <div className="hero-photo" />
       </div>
       <div className="form-wrapper">FORM</div>
     </div>

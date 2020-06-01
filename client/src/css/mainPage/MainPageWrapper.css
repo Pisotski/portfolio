@@ -11,14 +11,3 @@
   width: 100vw;
   justify-content: space-between;
 }
-.hero-photo {
-  height: 200px;
-  width: 200px;
-  /* background-image: url("../../assets/Hero\ photo.jpg"); */
-  border-radius: 50%;
-  background-color: sandybrown;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  background-size: cover;
-}
