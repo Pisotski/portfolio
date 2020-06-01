@@ -11,4 +11,8 @@ serverCompiled.js
 ##passwords
 helpers/config.js
 helpers/mysqlConfig.js
+
+##passwords
+helpers/configs.js
+helpers/mysqlConfigs.js
 .env
