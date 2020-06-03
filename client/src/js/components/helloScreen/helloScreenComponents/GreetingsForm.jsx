@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { addGuestInfo } from '../../../../../redux/actions/guestInformation.action';
 
 import '../../../../css/helloPage/GreetingsForm.css';
 
@@ -16,9 +18,12 @@ class GreetingsForm extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
+    // eslint-disable-next-line react/prop-types
+    const { dispatch } = this.props;
     this.setState({
       guestClass: 'guest-name-active',
     });
+    dispatch(addGuestInfo(this.guestName.current.value));
     this.guestName.current.value = '';
   }
 
@@ -47,4 +52,4 @@ class GreetingsForm extends React.Component {
   }
 }
 
-export default GreetingsForm;
+export default connect()(GreetingsForm);
