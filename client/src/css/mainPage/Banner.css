@@ -1,0 +1,7 @@
+.banner {
+  width: 100vw;
+  height: 40vh;
+  background-image: url('../../assets/Nighthawks_by_Edward_Hopper_1942.jpg');
+  background-size: cover;
+  background-repeat: none;
+}

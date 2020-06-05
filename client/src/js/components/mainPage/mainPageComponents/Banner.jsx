@@ -1,7 +1,8 @@
 import React from 'react';
+import '../../../../css/mainPage/Banner.css';
 
 function Banner(props) {
-  return <h2>BANNER!</h2>;
+  return <div className="banner" />;
 }
 
 export default Banner;

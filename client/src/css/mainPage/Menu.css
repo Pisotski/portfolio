@@ -1,0 +1,7 @@
+.menu {
+  color: black;
+}
+.menu-items:hover {
+  color: red;
+  text-shadow: 0 0 3px tomato;
+}
