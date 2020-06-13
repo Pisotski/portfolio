@@ -9,7 +9,7 @@ class VizAwareImg extends React.Component {
   }
 
   render() {
-    const { src } = this.props;
+    const { src, side } = this.props;
 
     return (
       <VizSensor
@@ -25,6 +25,7 @@ class VizAwareImg extends React.Component {
             zIndex: 1,
             width: 300,
             height: 300,
+            float: side,
             opacity: this.state.imgViz ? 1 : 0.25,
             transition: 'opacity 500ms linear',
           }}

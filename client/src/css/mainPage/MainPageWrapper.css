@@ -1,14 +1,23 @@
 .main-page-wrapper {
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   flex-direction: column;
-  align-items: center;
   color: red;
   border: 3px dotted #333;
 }
-.main-panel {
+
+.top-panel {
+  border: 3px dotted green;
+}
+
+.center-panel {
   display: flex;
-  width: 100vw;
-  justify-content: space-between;
+  align-self: center;
+  width: 65%;
+  max-width: 65%;
+  min-height: 80vh;
+  margin-left: 5%;
+  height: 100%;
+  border: 3px dotted tomato;
 }

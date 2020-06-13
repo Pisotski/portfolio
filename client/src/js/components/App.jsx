@@ -14,7 +14,7 @@ class App extends React.Component {
     const { sayHi } = this.state;
     return (
       <div className="main-container">
-        <HelloScreenWrapper />
+        {/* <HelloScreenWrapper /> */}
         <MainPageWrapper />
       </div>
     );

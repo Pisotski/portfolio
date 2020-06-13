@@ -1,7 +1,20 @@
 .menu {
+  position: fixed;
+  max-width: 20vw;
+  width: 20vw;
+  border: 3px dotted yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: black;
+  min-height: 100vh;
+  padding-left: 4%;
+  text-shadow: 0 0 3px white;
 }
-.menu-items:hover {
+
+.menu div:hover {
   color: red;
-  text-shadow: 0 0 3px tomato;
+  text-shadow: 0 0 3px white;
+  font-size: x-large;
 }
