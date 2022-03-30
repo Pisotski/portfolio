@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Banner from './mainPageComponents/Banner';
 import LeftSide from './mainPageComponents/LeftSide';
 import Center from './mainPageComponents/Center';
@@ -16,6 +18,9 @@ function MainPageWrapper(props) {
         <Center />
         <RightSide />
       </div>
+
+      {/* [TEMP] Link to Welcome page */}
+      <Link to='/'>Welcom page</Link>
     </div>
   );
 }
