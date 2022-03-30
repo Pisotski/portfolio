@@ -52,7 +52,7 @@
     "animate-css-grid": "^1.0.4",
     "app-root-path": "^2.1.0",
     "aws-sdk": "^2.320.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "dotenv": "^6.0.0",
     "eslint": "^4.19.1 || ^5.3.0",
     "eslint-plugin-import": "^2.14.0",
