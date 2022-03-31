@@ -1,3 +1,6 @@
+/* CREATE VARIABLES FOR COLORS */
+
+/* HERO SIDE */
 .hello-screen-wrapper {
   display: flex;
   background-color: lemonchiffon;
@@ -6,15 +9,15 @@
   padding: 0;
 }
 .hero-wrapper,
-.form-wrapper {
+.guest-wrapper {
   height: inherit;
   width: 50%;
-}
-
-.hero-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero-wrapper {
   border-right: 3px dotted sandybrown;
   background-image: linear-gradient(#fff, #076585);
 }
@@ -28,4 +31,10 @@
   background-size: cover;
   border: 4px solid #fff;
   border-radius: 50%;
+}
+
+/* GUEST SIDE */
+
+.guest-wrapper {
+  border: 3px dotted red;
 }
