@@ -38,3 +38,8 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# internal / working notes (keep out of the public repo)
+CLAUDE.local.md
+*.local.md
+/notes/
